@@ -1,0 +1,106 @@
+.bandeau-cadre{
+    width: 100%;
+    background-color: #FFFCF5;
+    margin-top: 70px;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contour-cadre{
+    border: solid #294069;
+    border-width: 2px 2px 0 2px;
+    border-radius: 30px 30px 0 0;
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 30px;
+}
+
+.cadre-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+}
+
+.cadre-content h2{
+    width: 50%;
+}
+
+.illustrations-bas{
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    width: 100%;
+    position: relative;
+}
+
+.img-bas1{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 13%;
+}
+.img-bas2{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 13%;
+}
+
+/* Desktop */
+@media (max-width: 1280px) {
+    .img-bas1{
+        width: 19%;
+    }
+    .img-bas2{
+        width: 17%;
+    }
+}
+
+/* Laptops */
+@media (max-width: 1024px){
+    .contour-cadre{
+        padding: 60px 20px;
+    }
+    .cadre-content h2{
+        width: 70%;
+    }
+    .cadre-accueil{
+        flex-direction: column;
+        gap: 30px;
+    }
+}
+
+/* Tablettes paysage et petits laptops */
+@media (max-width: 768px){
+    .contour-cadre{
+        padding: 60px 0px;
+        padding-left: 60px;
+    }
+    .img-bas1{
+        width: 27%;
+    }
+    .img-bas2{
+        width: 20%;
+    }
+}
+
+/* Mobile */
+@media (max-width: 639px){
+    .contour-cadre{
+        padding: 40px 20px;
+        width: 60%;
+    }
+    .img-bas1{
+        width: 30%;
+    }
+    .img-bas2{
+        width: 20%;
+    }
+}
+

@@ -1,0 +1,107 @@
+.timer{
+    background-color: #FFFCF5;
+    padding: 120px 0px 80px 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-timer-accueil{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.feux-accueil-timer{
+    position: absolute;
+    top: -100px;
+    left: 100px;
+}
+
+.timer h2{
+    text-align: center;
+    z-index: 1;
+}
+
+.timer .timer-content{
+    width: 40%;
+    padding: 10px 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    gap: 10px;
+    border: 2px solid #294069;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+
+.timer .box{
+    width: calc(100% / 1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 130px;
+    max-width: 150px;
+}
+
+.timer .value, .timer .label, .timer .dots{
+        font-weight: bold;
+}
+
+.timer .value{
+    font-size: 35px;
+}
+
+.timer .label{
+    font-size: 18px;
+}
+
+.timer .dots{
+    font-size: 28px;
+}
+
+@media (max-width: 1024px){
+    .timer .timer-content{
+        width: 60%;
+    }
+    .feux-accueil-timer{
+        top: -100px;
+        left: 0px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 639px){
+    .timer{
+        padding: 120px 0px 50px 0px;
+    }
+    .timer .timer-content{
+        padding: 0px 10px;
+        width: 90%;
+    }
+    .timer .value{
+        font-size: 20px;
+    }
+    
+    .timer .label{
+        font-size: 13px;
+    }
+    
+    .timer .dots{
+        font-size: 20px;
+    }
+    .timer .box{
+        height: 80px;
+    }
+    .feux-accueil-timer{
+        top: -150px;
+        left: 0px;
+        width: 100px;
+    }
+}

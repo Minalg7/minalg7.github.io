@@ -1,0 +1,36 @@
+.faq-accordion{
+    border-radius: 20px;
+    cursor: pointer;
+    padding: 20px 30px;
+    box-shadow: 0 4px 4px #A7968025;
+}
+.faq-box-question{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.faq-question{
+    font-weight: 600;
+    width: 90%;
+}
+
+.faq-content{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.img-faq{
+    width: 100%;
+}
+
+/* Mobile */
+@media (max-width: 639px){
+    .faq-question, .faq-content p, .link-faq{
+        font-size: 13px;
+    }
+}

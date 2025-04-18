@@ -1,0 +1,84 @@
+.footer{
+    background-color: #294069;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 60px 0;
+}
+
+.logo-nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 100px;
+    gap: 100px;
+    width: 80%;
+}
+
+.nav-footer{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+
+.nav-liste{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.nav-liste .link, .credit p, .credit p a{
+    color: #FFFCF5;
+}
+
+.nav-liste .link{
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.credit{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 80%;
+}
+
+.trait-long{
+    background-color: #FFFCF5;
+    width: 80%;
+    height: 2px;
+}
+
+.credit p, .credit p a{
+    font-size: 12px;
+}
+
+
+
+/* Tablettes paysage et petits laptops */
+@media (max-width: 768px) {
+    .logo-nav{
+        flex-direction: column;
+        align-items: flex-start;
+        padding-left: 0px;
+        gap: 50px;
+    }
+    .nav-footer{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .credit{
+        align-items: flex-start;
+    }
+}
+
+/* Mobiles */
+@media (max-width: 639px){
+    .logo-nav img{
+        width: 100px;
+    }
+    .nav-liste .link{
+        font-size: 14px;
+    }
+}

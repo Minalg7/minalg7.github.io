@@ -1,0 +1,17 @@
+.slider{
+    margin-top: 70px;
+    background-color: #294069;
+}
+
+.slide{
+    margin: 15px 10px;
+    color: #FFFCF5;
+    font-size: 16px;
+}
+
+/* Mobile */
+@media (max-width: 639px){
+    .slide{
+        font-size: 14px;
+    }
+}

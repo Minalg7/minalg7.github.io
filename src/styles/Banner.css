@@ -1,0 +1,17 @@
+.banner{
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    width: 100%;
+    position: relative;
+    height: fit-content;
+}
+.img-banner1{
+    width: 100%;
+}
+.img-banner2{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+}

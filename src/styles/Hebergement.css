@@ -1,0 +1,91 @@
+.description-hebergement{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding-top: 50px;
+    position: relative;
+}
+
+.plan-logements{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin-top: 80px;
+    position: relative;
+}
+
+.feux-rose-vert-droit{
+    position: absolute;
+    top: -80px;
+    right: 200px;
+}
+
+.description-hebergement h2, .description-hebergement p{
+    z-index: 3;
+    position: relative;
+}
+
+.colonne{
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    width: 60%;
+}
+
+.colonne p, .colonne h2{
+    width: 80%;
+}
+
+.pompom-hebergement{
+    position: absolute;
+    top: -50px;
+    left: 50px;
+    z-index: 2;
+}
+
+.feux-plan-hebergement{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.feux-plan-hebergement h2{
+    z-index: 2;
+}
+
+@media (max-width: 1024px){
+    .feux-rose-vert-droit{
+        top: -80px;
+        right: 0px;
+    }
+}
+
+/* Tablettes paysage et petits laptops */
+@media (max-width: 768px){
+    .colonne{
+        width: 80%;
+    }
+    .colonne p, .colonne h2{
+        width: 90%;
+    }
+}
+
+/* Mobile */
+@media (max-width: 639px){
+    .pompom-hebergement{
+        width: 100px;
+        height: auto;
+        top: -30px;
+    }
+    .feux-rose-vert-droit{
+        width: 100px;
+        height: auto;
+        top: -80px;
+        right: 0px;
+    }
+}

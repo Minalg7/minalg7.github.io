@@ -1,0 +1,126 @@
+.activites-accueil{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px;
+    position: relative;
+}
+
+.activites-accueil h2{
+    text-align: center;
+    z-index: 2;
+    position: relative;
+    color: #FFFCF5;
+    width: 50%;
+    margin-top: -250px;
+}
+
+.eventail-titre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-activite{
+    border-radius: 30px;
+}
+
+.act1{
+    transform: rotate(10deg);
+    margin-bottom: -20px;
+}
+.act2{
+    z-index: 1;
+    position: relative;
+}
+.act3{
+    transform: rotate(-10deg);
+    margin-bottom: -20px;
+}
+
+.text-size{
+    margin-top: 200px !important;
+}
+
+.feux-rose-orange-accueil{
+    position: absolute;
+    top: -150px;
+    left: 80px;
+}
+.feux-bleu-vert-bas{
+    position: absolute;
+    bottom: 0;
+    right: 90px;
+    z-index: -1;
+}
+
+/* Laptops */
+@media (max-width: 1024px){
+    .img-activite{
+        width: 230px;
+    }
+    .text-size{
+        margin-top: 150px !important;
+    }
+}
+
+/* Tablettes paysage et petits laptops */
+@media (max-width: 768px){
+    .img-activite{
+        width: 200px;
+    }
+    .activites-accueil h2{
+        margin-top: -200px;
+    }
+    .text-size{
+        margin-top: 100px !important;
+    }
+    .feux-rose-orange-accueil{
+        top: -150px;
+        left: 0px;
+    }
+    .feux-bleu-vert-bas{
+        bottom: 0;
+        right: 0px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 639px){
+    .activites-accueil{
+        margin-top: 100px;
+    }
+    .img-activite{
+        width: 125px;
+    }
+    .activites-accueil h2{
+        margin-top: -130px;
+    }
+    .text-size{
+        margin-top: 80px !important;
+    }
+    .feux-rose-orange-accueil{
+        top: -80px;
+        left: 0px;
+        width: 100px;
+        height: auto;
+    }
+    .feux-bleu-vert-bas{
+        width: 120px;
+        height: auto;
+        bottom: 0;
+        right: 0px;
+    }
+}
+
+@media (max-width: 400px){
+    .activites-accueil{
+        margin-top: 80px;
+    }
+    .img-activite{
+        width: 100px;
+    }
+    .activites-accueil h2{
+        margin-top: -110px;
+    }
+}

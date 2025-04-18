@@ -1,0 +1,188 @@
+h1.hero-title {
+  font-size: 120px;
+  transform: scale(1.15);
+  transition: transform 2s cubic-bezier(0.58, -0.01, 0, 1);
+}
+
+h1.hero-title.small {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.parallax-wrapper {
+    position: relative;
+    height: 200vh;
+    width: 100%;
+  }
+
+.parallax-hero-banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: #114473;
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+}
+
+#scroll-down{
+  position: absolute;
+  bottom: 20px;
+}
+
+.parallax-hero-banner img{
+  position: absolute;
+  transition: transform 2s cubic-bezier(0.58, -0.01, 0, 1), opacity 2s cubic-bezier(0.58, -0.01, 0, 1);
+  will-change: transform, opacity;
+}
+
+.img-longue{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+#personnages{
+    bottom: 0;
+    right: 0;
+    width: 25%;
+    height: auto;
+}
+#roue{
+    bottom: 0;
+    left: 0;
+    width: 24%;
+    height: auto;
+}
+#lanternes{
+    top: 0;
+    right: 0;
+    width: 40%;
+    height: auto;
+}
+#etoiles{
+    top: 0;
+    right: 0;
+    width: 100%;
+}
+#sol{
+    bottom: 0;
+    left: 0;
+    width: 80%;
+}
+
+/* --- FIREWORKS --- */
+.artifice {
+  opacity: 0;
+  transform: scale(0.5);
+  transition: transform 2s cubic-bezier(0.58, -0.01, 0, 1), opacity 2s cubic-bezier(0.58, -0.01, 0, 1);
+}
+
+.artifice.visible {
+  opacity: 1;
+  transform: scale(1);
+}
+
+/* --- ENTRY FROM TOP --- */
+.entry-down {
+  opacity: 0;
+  transform: translateY(-100px);
+  transition: transform 2s cubic-bezier(0.58, -0.01, 0, 1), opacity 2s cubic-bezier(0.58, -0.01, 0, 1);
+}
+
+.entry-down.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* --- ENTRY FROM BOTTOM --- */
+.entry-up {
+  opacity: 0;
+  transform: translateY(100px);
+  transition: transform 2s cubic-bezier(0.58, -0.01, 0, 1), 2s cubic-bezier(0.58, -0.01, 0, 1);
+}
+
+.entry-up.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Laptops */
+@media (max-width: 1024px){
+    h1.hero-title{
+        font-size: 100px;
+    }
+    #personnages{
+        bottom: 0;
+        right: 0;
+        width: 30%;
+        height: auto;
+    }
+    #roue{
+        bottom: 0;
+        left: 0;
+        width: 30%;
+        height: auto;
+    }
+    #lanternes{
+        top: 0;
+        right: 0;
+        width: 50%;
+        height: auto;
+    }
+}
+
+/* Tablettes paysage et petits laptops */
+@media (max-width: 768px){
+    h1.hero-title{
+        font-size: 80px;
+        margin-top: -60px;
+    }
+    #personnages{
+        bottom: 0;
+        right: 0;
+        width: 40%;
+        height: auto;
+    }
+    #roue{
+        bottom: 0;
+        left: 0;
+        width: 40%;
+        height: auto;
+    }
+    #lanternes{
+        top: 0;
+        right: 0;
+        width: 60%;
+        height: auto;
+    }
+}
+
+/* Mobile */
+@media (max-width: 639px){
+    h1.hero-title{
+        font-size: 70px;
+        text-align: center;
+        margin-top: -90px;
+    }
+    #personnages{
+        bottom: 0;
+        right: 0;
+        width: 60%;
+        height: auto;
+    }
+    #roue{
+        bottom: 0;
+        left: 0;
+        width: 60%;
+        height: auto;
+    }
+    #lanternes{
+        top: 0;
+        right: 0;
+        width: 80%;
+        height: auto;
+    }
+}

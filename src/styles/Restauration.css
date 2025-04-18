@@ -1,0 +1,184 @@
+.description-menu{
+    background-color: #FFFCF5;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    gap: 30px;
+    padding-bottom: 60px;
+    position: relative;
+}
+
+.description-menu h2, .description-menu p{
+  z-index: 3;
+}
+
+.feux-vert-rose{
+  position: absolute;
+  top: -80px;
+  left: 250px;
+  width: 180px;
+  height: auto;
+  z-index: 2;
+}
+
+.tabs-content{
+    display: none;
+}
+
+.show-content{
+    display: flex;
+}
+
+.tabs{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+    position: relative;
+}
+
+.pompom-menu{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  z-index: -1;
+}
+
+.tabs-nav-container{
+    border-radius: 20px;
+    border: 2px solid #294069;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.tabs-title-active{
+    background-color: #294069;
+    color: white;
+    font-weight: 600;
+    border-radius: 17px;
+    list-style: none;
+    padding: 15px 30px;
+}
+
+.tabs-title{
+    font-weight: 600;
+    list-style: none;
+    padding: 15px 30px;
+    cursor: pointer;
+}
+
+.tabs-stands {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 80px;
+    width: 80%;
+    margin-bottom: 80px;
+  }
+  .one {
+    grid-column: 1/2;
+    grid-row: 1;
+  }
+  .two {
+    grid-column: 2/3;
+    grid-row: 1;
+  }
+  .three {
+    grid-column: 1/2;
+    grid-row: 2;
+  }
+  .four {
+    grid-column: 2/3;
+    grid-row: 2;
+  }
+
+
+@media (max-width: 1240px){
+  .tabs-stands {
+    width: 100%;
+  }
+
+}
+
+@media (max-width: 1024px){
+  .feux-vert-rose{
+    width: 150px;
+    top: -60px;
+    left: 90px;
+}
+}
+
+@media (max-width: 930px){
+  .tabs{
+    width: 90%;
+  }
+  .tabs-stands {
+    gap: 30px;
+  }
+  .pompom-menu{
+    position: absolute;
+    width: 150px;
+    height: auto;
+    top: 0px;
+    right: 0px;
+    z-index: -1;
+  }
+}
+
+/* Tablettes paysage et petits laptops */
+@media (max-width: 768px){
+  .feux-vert-rose{
+      top: -50px;
+      left: 0px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 639px){
+  .tabs{
+    gap: 50px;
+  }
+
+  .tabs-title-active{
+      padding: 15px 10px;
+      font-size: 14px;
+      text-align: center;
+      height: fit-content;
+  }
+
+  .feux-vert-rose{
+    width: 100px;
+    top: 0px;
+    left: 0px;
+  }
+
+  .tabs-title{
+      padding: 15px 10px;
+      font-size: 14px;
+      text-align: center;
+  }
+  .tabs-stands {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+  }
+  .one {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  .two {
+    grid-column: 1;
+    grid-row: 2;
+  }
+  .three {
+    grid-column: 1;
+    grid-row: 3;
+  }
+  .four {
+    grid-column: 1;
+    grid-row: 4;
+  }
+}

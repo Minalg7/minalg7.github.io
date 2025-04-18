@@ -1,0 +1,209 @@
+/* Info domaine */
+.info-domaine{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding-top: 50px;
+    position: relative;
+    z-index: 2;
+}
+
+.encart-info-domaine{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 70px;
+    width: 30%;
+}
+
+.text-info{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.feux-domaine{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.feux-domaine h2{
+    z-index: 2;
+}
+
+.feux-rose-orange-informations{
+    position: absolute;
+    top: -80px;
+    left: 200px;
+    z-index: 2;
+    width: 180px;
+    height: auto;
+}
+
+/* Plan du domaine */
+.plan-domaine1{
+    width: 800px;
+    height: auto;
+}
+.plan-domaine{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 0;
+}
+.legende{
+    display: flex;
+    flex-direction: row;
+    gap: 150px;
+}
+
+.legende-box{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.legend-item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.legend-item p{
+    font-weight: 600;
+}
+
+.numero{
+    display: block;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 50%;
+    text-align: center;
+    font-style: italic;
+    font-size: 20px;
+}
+
+/* FAQ */
+.faq{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    position: relative;
+}
+
+.container-accordion{
+    width: 70%;
+    margin-top: 50px;
+}
+
+.container-accordion h3{
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+.layout-accordion{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.guirlande{
+    position: absolute;
+    top: -70px;
+    right: 0px;
+    z-index: -1;
+}
+
+/* Laptops */
+@media (max-width: 1024px){
+    .encart-info-domaine{
+        width: 60%;
+    }
+    .legende{
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 100px;
+    }
+    .container-accordion{
+        width: 80%;
+    }
+
+    .feux-rose-orange-informations{
+        width: 150px;
+        top: -60px;
+        left: 90px;
+    }
+    .guirlande{
+        width: 300px;
+        top: -162px;
+        right: 0px;
+    }
+}
+
+@media (max-width: 820px){
+    .plan-domaine1{
+        width: 600px;
+    }
+}
+
+
+/* Tablettes paysage et petits laptops */
+@media (max-width: 768px){
+    .feux-rose-orange-informations{
+        top: -50px;
+        left: 0px;
+    }
+}
+
+
+/* Mobile */
+@media (max-width: 639px){
+    .plan-domaine{
+        padding-top: 40px;
+    }
+    .plan-domaine1{
+        width: 500px;
+    }
+    .encart-info-domaine{
+        flex-direction: column;
+        gap: 30px;
+        padding: 40px 40px;
+    }
+    .encart-info-domaine p{
+        font-size: 14px;
+        text-align: center;
+    }
+    .legende{
+        justify-content: flex-start;
+        gap: 50px;
+        width: 80%;
+    }
+    .legend-item p{
+        font-size: 14px;
+    }
+    .faq h2{
+        margin-top: 100px;
+    }
+    .feux-rose-orange-informations{
+        width: 100px;
+        top: 0px;
+        left: 0px;
+    }
+}
+
+@media (max-width: 500px){
+    .plan-domaine1{
+        width: 300px;
+    }
+}
