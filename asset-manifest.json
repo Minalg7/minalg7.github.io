@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.a0f73a2f.css",
-    "main.js": "/static/js/main.94eb934e.js",
+    "main.css": "/static/css/main.4c8ca538.css",
+    "main.js": "/static/js/main.a43b18f5.js",
     "static/media/lune.png": "/static/media/lune.5f81360f85e2aef8c493.png",
     "static/media/theme.png": "/static/media/theme.e60a250c78c3322ac765.png",
     "static/media/escape-game-modale.jpg": "/static/media/escape-game-modale.4b2a92be073a8e44b9bc.jpg",
@@ -86,17 +86,17 @@
     "static/media/objets-interdits.png": "/static/media/objets-interdits.d2bee027e8dbdafa96de.png",
     "static/media/etoiles.png": "/static/media/etoiles.8f40c24fcd51422736b9.png",
     "static/media/buisson-droit.png": "/static/media/buisson-droit.0293eff23e156ad6df17.png",
-    "static/media/logo.svg": "/static/media/logo.93be74fb007a1b7c983983e54f6a1ad4.svg",
+    "static/media/logo.svg": "/static/media/logo.3fd8790f45e3fcbc15269256aa6a643c.svg",
     "static/media/reflet.png": "/static/media/reflet.611842fdf967120b0136.png",
-    "static/media/cursor-grab.svg": "/static/media/cursor-grab.a8b081ff672f08a9262b.svg",
+    "static/media/cursor-grab.svg": "/static/media/cursor-grab.0cdc3b2c72e624cd4f85.svg",
     "index.html": "/index.html",
-    "static/media/scroll-down.svg": "/static/media/scroll-down.91fc233ca7e6661824ef4194dff32089.svg",
-    "static/media/cursor.svg": "/static/media/cursor.96bb9314f3c90c0ac3c8.svg",
-    "main.a0f73a2f.css.map": "/static/css/main.a0f73a2f.css.map",
-    "main.94eb934e.js.map": "/static/js/main.94eb934e.js.map"
+    "static/media/scroll-down.svg": "/static/media/scroll-down.a6640090b792ba523d6072c0f6eda482.svg",
+    "static/media/cursor.svg": "/static/media/cursor.16f17bbdb6093934f37b.svg",
+    "main.4c8ca538.css.map": "/static/css/main.4c8ca538.css.map",
+    "main.a43b18f5.js.map": "/static/js/main.a43b18f5.js.map"
   },
   "entrypoints": [
-    "static/css/main.a0f73a2f.css",
-    "static/js/main.94eb934e.js"
+    "static/css/main.4c8ca538.css",
+    "static/js/main.a43b18f5.js"
   ]
 }
