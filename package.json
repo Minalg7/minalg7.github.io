@@ -2,15 +2,17 @@
   "name": "mariage-stephie-alain",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://minalg7.github.io",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
+    "babel-preset-react-app": "9.1.2",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-fast-marquee": "^1.6.5",
     "react-router-dom": "6.10.0",
-    "react-scripts": "4.0.1",
+    "react-scripts": "5.0.1",
     "swiper": "9.4.1",
     "web-vitals": "^0.2.4"
   },
@@ -18,7 +20,9 @@
     "start": "react-scripts --openssl-legacy-provider start",
     "build": "react-scripts --openssl-legacy-provider build",
     "test": "react-scripts --openssl-legacy-provider test",
-    "eject": "react-scripts --openssl-legacy-provider eject"
+    "eject": "react-scripts --openssl-legacy-provider eject",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -39,6 +43,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^6.3.0",
     "prettier": "^3.5.3"
   }
 }
