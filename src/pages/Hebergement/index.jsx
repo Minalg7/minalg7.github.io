@@ -39,7 +39,8 @@ function Hebergement() {
           </p>
           <p>
             Si vous souhaitez prolonger votre séjour, cela est possible à tarif
-            préférentiel (-20% sur le tarif de base, soit environ 20€ par personne) et devra nous être communiqué avant le 30 avril.
+            préférentiel (-20% sur le tarif de base, soit environ 20€ par
+            personne) et devra nous être communiqué avant le 30 avril.
           </p>
         </div>
       </section>
@@ -62,19 +63,32 @@ function Hebergement() {
         <ClickableImageMap />
         <div className="text text-center">
           <p>
-            <span className="pink">*</span>Les logements sont divisés en trois groupes : les Cottages, les Lodges et les Emplacements. Les emplacements sont réservés aux personnes qui viennent en van, camping-car et tente.
+            <span className="pink">*</span>Les logements sont divisés en trois
+            groupes : les Cottages, les Lodges et les Emplacements. Les
+            emplacements sont réservés aux personnes qui viennent en van,
+            camping-car et tente.
           </p>
           <p>
-            Les lodges sont des grandes tentes aménagées pour 4 personnes qui contiennent des chambres avec lits et une cuisine. Ils sont moins chers que les cottages cependant les sanitaires se trouvent à l'extérieur à proximité (Cf photos ci-dessus). Possibilité de n'être que 2/3 personnes par lodge.
+            Les lodges sont des grandes tentes aménagées pour 4 personnes qui
+            contiennent des chambres avec lits et une cuisine. Ils sont moins
+            chers que les cottages cependant les sanitaires se trouvent à
+            l'extérieur à proximité (Cf photos ci-dessus). Possibilité de n'être
+            que 2/3 personnes par lodge.
           </p>
           <p>
-            Les cottages doivent impérativement contenir 5 personnes minimum, c'est pourquoi ils seront partagés. Ils sont constitués d'une chambre lit double, d'une chambre 3 lits simples et d'un convertible dans le salon (2 personnes). WC et douche inclus dans les cottages mais à partager.
+            Les cottages doivent impérativement contenir 5 personnes minimum,
+            c'est pourquoi ils seront partagés. Ils sont constitués d'une
+            chambre lit double, d'une chambre 3 lits simples et d'un convertible
+            dans le salon (2 personnes). WC et douche inclus dans les cottages
+            mais à partager.
           </p>
           <p>
-            Comme vous pouvez le constater, ça va être un peu notre plan de table à nous (aussi complexe !), donc n'oubliez pas de nous prévenir si vous souhaitez utiliser un emplacement ou dormir dans un lodge afin qu'on puisse s'organiser au mieux.
+            Comme vous pouvez le constater, ça va être un peu notre plan de
+            table à nous (aussi complexe !), donc n'oubliez pas de nous prévenir
+            si vous souhaitez utiliser un emplacement ou dormir dans un lodge
+            afin qu'on puisse s'organiser au mieux.
           </p>
         </div>
-
       </section>
 
       <BandeauCadre>
