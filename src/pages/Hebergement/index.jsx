@@ -60,7 +60,7 @@ function Hebergement() {
         </div>
 
         <ClickableImageMap />
-        <div className="text-center">
+        <div className="text text-center">
           <p>
             <span className="pink">*</span>Les logements sont divisés en trois groupes : les Cottages, les Lodges et les Emplacements. Les emplacements sont réservés aux personnes qui viennent en van, camping-car et tente.
           </p>
