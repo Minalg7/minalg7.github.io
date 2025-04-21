@@ -18,7 +18,7 @@ export const listeActivites = [
   {
     title: "Escape Game Fil rouge",
     content:
-      "Beaucoup d'entre vous vous le savent, nous adorons les escapes games. C'est pourquoi nous avons décidé que le fil rouge de notre mariage en serait un !",
+      "Cliquez sur la flèche pour en savoir plus.",
     cover: escapeGame1,
     cover2: escapeGame2,
     bgColor: "bg-blue",
@@ -67,7 +67,7 @@ export const listeActivites = [
   },
   {
     title: "Activités",
-    content: ["Sumo", "Photobooth", "Bar à tattoo et paillettes", "Morpion grandeur nature", "Bataille navale grandeur nature"],
+    content: ["Sumo", "Photobooth", "Bar à tattoo et paillettes", "Morpion grandeur nature"],
     cover: activites1,
     cover2: activites2,
     bgColor: "bg-pink",

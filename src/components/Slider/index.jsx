@@ -8,7 +8,7 @@ const words = [
   "•",
   "Le bouquet a été lancé… 3 blessés légers. 💐💥",
   "•",
-  "最初のヒント: 赤いワイヤーの写真の下のコードを翻訳してください",
+  "最初のヒント: 赤いワイヤーの写真の下のコードを翻訳してください (1=A, 5=E, 12=L, etc...)",
   "•",
   "Un enfant a découvert le bar à bonbons… Chaos imminent ! 🍬😱",
   "•",

@@ -144,12 +144,11 @@ function Activites() {
               </p>
               <p className="white">
                 A votre arrivée, vous aurez à disposition un formulaire qui vous
-                aidera à trouver les indices dispersés sur le domaine. Ils vous
-                aideront à deviner le mot de passe, saurez-vous les retrouver ?
+                aidera à trouver les énigmes dispersés sur le domaine. Chaque énigme vous permettra de trouver une lettre du mot mystère. Saurez-vous les retrouver ?
               </p>
               <p className="white">
                 Une fois que vous pensez avoir la bonne réponse, il vous suffira
-                d'aller l'annoncer aux mariés qui vous la validera ou non. Si la
+                d'aller l'annoncer à la mariée qui vous la validera ou non. Si la
                 réponse donnée est correcte vous pourrez déposer votre ticket
                 numéroté (celui envoyé par courrier à détacher, ne l'oubliez pas
                 !) et à le déposer dans l'urne prévue à cet effet.
