@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.4c8ca538.css",
-    "main.js": "/static/js/main.eecfbb76.js",
+    "main.css": "/static/css/main.0a8684ac.css",
+    "main.js": "/static/js/main.eb443e35.js",
     "static/media/lune.png": "/static/media/lune.5f81360f85e2aef8c493.png",
     "static/media/theme.png": "/static/media/theme.e60a250c78c3322ac765.png",
     "static/media/escape-game-modale.jpg": "/static/media/escape-game-modale.4b2a92be073a8e44b9bc.jpg",
@@ -92,11 +92,11 @@
     "index.html": "/index.html",
     "static/media/scroll-down.svg": "/static/media/scroll-down.a6640090b792ba523d6072c0f6eda482.svg",
     "static/media/cursor.svg": "/static/media/cursor.16f17bbdb6093934f37b.svg",
-    "main.4c8ca538.css.map": "/static/css/main.4c8ca538.css.map",
-    "main.eecfbb76.js.map": "/static/js/main.eecfbb76.js.map"
+    "main.0a8684ac.css.map": "/static/css/main.0a8684ac.css.map",
+    "main.eb443e35.js.map": "/static/js/main.eb443e35.js.map"
   },
   "entrypoints": [
-    "static/css/main.4c8ca538.css",
-    "static/js/main.eecfbb76.js"
+    "static/css/main.0a8684ac.css",
+    "static/js/main.eb443e35.js"
   ]
 }
