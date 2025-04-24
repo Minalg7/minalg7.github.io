@@ -87,7 +87,7 @@ function Galerie() {
             </li>
           </ul>
           <p className="white">
-            Parce que les plus moments sont ceux que l'on partage et qu'on sait
+            Parce que les plus beaux moments sont ceux que l'on partage et qu'on sait
             que vous avez un talent caché de photographe ! A vos appareils !
           </p>
         </div>
