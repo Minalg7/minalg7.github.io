@@ -37,7 +37,7 @@ export const faqSurPlace = [
   },
   {
     id: 5,
-    question: "Quel est la liste des objets interdis ?",
+    question: "Quel est la liste des objets interdits ?",
     img: objetsInterdits,
     imgClass: "img-faq",
   },
