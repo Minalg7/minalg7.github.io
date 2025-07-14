@@ -79,7 +79,7 @@ export const samediSlides = [
     cover: ouvertureBal,
   },
   {
-    horaire: "22h00",
+    horaire: "00h00",
     title: "Dessert",
     cover: desserts,
   },
